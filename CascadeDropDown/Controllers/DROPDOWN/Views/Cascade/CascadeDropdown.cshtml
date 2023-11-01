@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "CascadeDropdown";
+}
+
+<div class="container">
+    <div class="row">
+       <div class="col-6 offset-3">
+           <from method="post">
+               <div class="form-group">
+                   <lable>Country</lable>
+                   <select class="form-control" id="Country">
+                       <option>--Select Country--</option>
+                   </select>
+               </div>
+                <div class="form-group">
+                    <lable>state</lable>
+                    <select class="form-control" id="State">
+                        <option>--Select State--</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <lable>City</lable>
+                    <select class="form-control" id="City">
+                        <option>--Select City--</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-sm btn-primary float-right">Save</button>
+                </div>
+           </from>
+       </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script src="~/js/cascade.js"></script>
